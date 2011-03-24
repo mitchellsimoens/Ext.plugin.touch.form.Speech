@@ -3,7 +3,7 @@ Ext.setup({
 		var form = new Ext.form.FormPanel({
 			fullscreen : true,
 			items      : [
-				{ xtype : "textfield", fieldLabel : "Speech Textfield", plugins : { ptype : "form.speech" } }
+				{ xtype : "textfield", label : "Speech Textfield", plugins : { ptype : "form.speech" } }
 			]
 		});
 	}
